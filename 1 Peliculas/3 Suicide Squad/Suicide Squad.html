@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Suicide Squad</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		body{
+			margin: 0;
+			font-family: 'IBM Plex Sans', sans-serif;
+			min-width: 323px;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		.portadamovil{display: none;}
+
+		.botonmovil{display: none;}
+
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside div img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		.logopelicula{
+			text-align: center;
+			padding-top: 40px
+		}
+
+		.logopelicula img{
+			width: 60%;
+		}
+
+		.boton{
+			width: 70%;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			border-radius: 30px;
+			border: 2.5px solid #14659E;
+			color:white;
+			margin: 0 auto;
+			margin-top: 6vh;
+			transition: 0.5s;
+		}
+		.boton:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+			cursor: pointer;
+		}
+
+		.posteraside{
+			text-align: center;
+			margin-top: 7vh;
+		}
+		.posteraside img{border-radius: 20px;}
+
+		section{
+			width: 80%;
+			height: 100vh;
+			background-color: black;
+			float: right;
+		}
+
+		.portada img{
+			width: 85%;
+			border-radius: 40px;
+		}
+
+		.portada{
+			text-align: center;
+			padding-top: 8vh;
+		}
+
+		#logopeliculados{
+			width: 20%;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		.detalles{
+			margin-left: 20%;
+		}
+
+		p{
+			width: 80%;
+			color: white;
+			font-size: 20px;
+		}
+
+		#fotoswiki{
+			width: 8%;
+			display: inline-block;
+			text-align: center;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 20px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+		#fotoswiki:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+			cursor: pointer;
+		}
+
+
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{display: none;}
+
+			section{
+				width: 100%;
+			}
+
+			.portada{display: none;}
+
+			.portadamovil{
+				display: block;
+			}
+			.portadamovil img{width: 100%;}
+
+			#logopeliculados{
+				width: 50%
+			}
+
+			.botonmovil{
+				display: block;
+				margin-top: -7%;
+			}
+
+			section h1{
+				font-size: 40px;
+			}
+
+			#fotoswiki{
+			width: 11%;
+
+			}
+
+			.boton:hover{
+				box-shadow: none;
+				background-color: black;
+				color: white;
+				cursor: pointer;
+			}
+
+
+
+		}
+
+
+
+
+		@media screen and (max-width: 410px){
+
+			section h1{
+				font-size: 30px;
+			}
+
+			#informacion{
+				font-size: 15px;
+			}
+
+			.botonmovil{
+				margin-top: -8%;
+			}
+
+
+			#fotoswiki{
+				width: 20%;
+				margin-top: 0px;
+				margin-right: 5%;
+				margin-bottom: 0;
+				margin-left: 6%;
+			}
+
+			section div p{
+				width: 90%;
+			}
+
+			
+
+
+		}
+
+		
+
+		
+
+
+
+
+	</style>
+</head>
+
+	
+
+
+<body>
+
+
+	<aside>
+
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="logopelicula">
+			<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a99d6e81-03cd-41f9-8532-f42459eaad6e/d9on4m4-76d74b5e-b579-4e86-8296-144b87d2f7bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTk5ZDZlODEtMDNjZC00MWY5LTg1MzItZjQyNDU5ZWFhZDZlXC9kOW9uNG00LTc2ZDc0YjVlLWI1NzktNGU4Ni04Mjk2LTE0NGI4N2QyZjdiZi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PgEEiBzLUdH8PRgQsyeA4X0xAYLZmG9PgpPr21CfGuQ">
+		</div>
+
+		<a href="https://www.youtube.com/watch?v=H37IaRFiIe0&feature=youtu.be">
+			<div class="boton">Ver película</div>
+		</a>
+
+		<div class="posteraside">
+			<img src="https://movieposters2.com/images/1394504-b.jpg">
+		</div>
+
+		
+
+	</aside>
+
+
+	<section>
+
+	<div class="portada">
+		<img src="https://images5.alphacoders.com/794/thumb-1920-794142.jpg">
+	</div>
+
+	<div class="portadamovil">
+		<img src="https://pbs.twimg.com/media/EpehKutXcAIEzcs?format=jpg&name=small">
+	</div>
+
+	<div class="logopelicula">
+		<img id="logopeliculados" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a99d6e81-03cd-41f9-8532-f42459eaad6e/d9on4m4-76d74b5e-b579-4e86-8296-144b87d2f7bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTk5ZDZlODEtMDNjZC00MWY5LTg1MzItZjQyNDU5ZWFhZDZlXC9kOW9uNG00LTc2ZDc0YjVlLWI1NzktNGU4Ni04Mjk2LTE0NGI4N2QyZjdiZi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PgEEiBzLUdH8PRgQsyeA4X0xAYLZmG9PgpPr21CfGuQ">
+	</div>
+
+	<a class="botonmovil" href="https://youtu.be/G5D_62ITurU">
+			<div class="boton">Ver película</div>
+		</a>
+
+	<hr>
+
+	<h1>Detalles</h1>
+	<div class="detalles">
+		<p>1080p</p>
+		<p>Castellano</p>
+		<p>2:14:32</p>
+		<p id="informacion">Mientras el gobierno de EE.UU no tiene claro cómo responder a una visita alienígena a la Tierra con intenciones malignas, Amanda 'El Muro' Waller (Viola Davis), la líder de la agencia secreta A.R.G.U.S., ofrece una curiosa solución: reclutar a los villanos más crueles, con habilidades letales e incluso mágicas, para que trabajen para ellos. Sin demasiadas opciones a dar una negativa, los ocho supervillanos más peligrosos del mundo acceden a colaborar con el Ejecutivo en peligrosas misiones secretas, casi suicidas, para así lograr limpiar su expediente.</p>
+	</div>
+
+	<hr>
+
+	<h1>Relacionado</h1>
+	<div class="boton">Soundtracks</div>
+	<div class="boton">Extras</div>
+	<div class="boton">Galeria</div>
+
+	<hr>
+
+	<article>
+			<h1>Personajes</h1>
+			<img id="fotoswiki" src="https://styles.redditmedia.com/t5_cbwg0/styles/profileIcon_ez9wdgkwnqi41.jpg?width=256&height=256&crop=256:256,smart&frame=1&s=d62a7944840e724082f7507cf48c2fc9a806afa8">
+			<img id="fotoswiki" src="https://pbs.twimg.com/profile_images/616251456275005441/5XDeooJK_400x400.jpg">
+			<img id="fotoswiki" src="https://b.thumbs.redditmedia.com/iS5FzuBjc9T0y8s2aHbLk6MPApO71RxGkw7BQ2ntayw.png">
+			<img id="fotoswiki" src="https://pbs.twimg.com/profile_images/3108973704/0faa37aa97a55caaf0e2da7bd3cd4f17.jpeg">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6147/3268f3d17d99f03733f82e28289d02b32e7d91d2_128.jpg">
+			
+
+	</article>
+
+	<hr>
+
+
+	</section>
+
+	
+
+	
+
+
+
+
+</body>
+</html>
