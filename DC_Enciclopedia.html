@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DC Enciclopedia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		header{display: none;}
+		
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		section{
+			width: 80%;
+			background-color: black;
+			float: right;
+		}
+
+		#portada{
+			width: 85%;
+			margin-left: 7.5%;
+			margin-top: 5vh;
+			border-radius: 40px;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section article h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		section article img{
+			display: inline-block;
+			text-align: center;
+			width: 40%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 30px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+
+		section article img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+		}
+
+		#fotoswiki{
+			width: 8%;
+		}	
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{
+				display: none;
+			}
+
+			header{display: block;}
+
+			.logoheader{
+				text-align: center;
+				
+			}
+			
+			header div img{
+				width: 60%;
+				margin-bottom: 100px;
+				margin-top: 100px;
+			}
+
+			section{
+				width: 100%;
+			}
+
+			section article img{				
+				border-radius: 20px;
+				margin-top: 0;
+			}
+
+			section article h1{
+				font-size: 30px;
+				text-align: center;
+				color: white;
+			}
+
+			#fotoswiki{
+			width: 11%;
+			}
+
+			section article img:hover{
+				box-shadow: none;
+				background-color: black;
+				color: white;
+				cursor: pointer;
+				border:2.5px solid #191919;
+			}
+		}	
+
+
+
+
+
+		@media screen and (max-width: 410px){
+
+			#fotoswiki{
+				width: 14.5%;
+			}	
+
+			section article img{				
+				border-radius: 15px;
+				margin-top: 0;
+				
+			}
+			
+
+		}
+
+
+	</style>
+</head>
+
+
+
+
+
+<body>
+
+	<header>
+		<div class="logoheader">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+	</header>
+
+
+	<aside>
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="contenedorcajon">
+			
+		</div>	
+
+	</aside>
+
+
+
+
+	<section>
+		<img id="portada" src="https://geekreply.com/wp-content/uploads/2017/05/636050742421662829557087227_Odyssey-9.jpg">
+
+		<hr>
+		
+		<article>
+			<h1>Heroes</h1>
+			<img id="fotoswiki" src="https://styles.redditmedia.com/t5_cbwg0/styles/profileIcon_ez9wdgkwnqi41.jpg?width=256&height=256&crop=256:256,smart&frame=1&s=d62a7944840e724082f7507cf48c2fc9a806afa8">
+			<img id="fotoswiki" src="https://pbs.twimg.com/profile_images/616251456275005441/5XDeooJK_400x400.jpg">
+			<img id="fotoswiki" src="https://b.thumbs.redditmedia.com/iS5FzuBjc9T0y8s2aHbLk6MPApO71RxGkw7BQ2ntayw.png">
+			<img id="fotoswiki" src="https://pbs.twimg.com/profile_images/736363147175460865/i9wSDigj.jpg">
+			<img id="fotoswiki" src="https://external-preview.redd.it/LPr98HwH4YWL7H3oTK_aa00ic2yMcOrEKr7ZWgGCy6U.jpg?auto=webp&s=b2e1070c002847d48e64a309358f9fba82e52b3e">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6313/9cf131f280dcda47395593e64d0f00a708273321_128.jpg">
+			
+		</article>
+
+		<hr>
+
+		<article>
+			<h1>Villanos</h1>
+			<img id="fotoswiki" src="https://i.pinimg.com/originals/95/02/dc/9502dc9ea32a657b8e49418cc2f6031e.jpg">
+			<img id="fotoswiki" src="https://pbs.twimg.com/profile_images/3108973704/0faa37aa97a55caaf0e2da7bd3cd4f17.jpeg">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6848/f8f07938c97f2239df5af879db8f7438d5c1813dv2_128.jpg">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6592/096a339cb8059dd2a1c2d07e017e054ef7be681b_128.jpg">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6147/794ed00cd80abfe86ce71b6ca98942a528085312_128.jpg">
+			<img id="fotoswiki" src="https://pm1.narvii.com/6565/43ec61dd9e8f14b40ceaa36facb45199c8b08ba0_128.jpg">
+			
+		</article>
+
+		<hr>
+
+
+
+	</section>
+
+
+</body>
+</html>
