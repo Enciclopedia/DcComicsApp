@@ -24,6 +24,8 @@
 			color: #2584C7;
 		}
 
+		.perfil{display: none}
+
 		.asideuno{
 			width: 20%;
 			height: 100vh;
@@ -207,6 +209,7 @@
 
 			body{
 				background-color: black;
+				margin: 0;
 			}
 
 			section{
@@ -223,9 +226,8 @@
 			}
 			
 			header div img{
-				width: 60%;
-				margin-bottom: 100px;
-				margin-top: 100px;
+				width: 100%;
+			
 			}
 
 			section{
@@ -267,6 +269,24 @@
 				border:2.5px solid #191919;
 				box-shadow: none;
 			}
+
+			.portada{
+				display: none;
+			}
+
+			.perfil{
+				display: block;
+				border-radius: 100px;
+				text-align: center;
+				
+			}
+			.perfil img{
+				width: 30%;
+				border-radius: 100px;
+				
+			}
+
+		
 		
 
 			
@@ -280,9 +300,6 @@
 
 		@media screen and (max-width: 425px){
 
-			h2{
-				font-size: 15px;
-			}
 
 			#fotoswiki{
 				width: 20%;
@@ -309,6 +326,8 @@
 			hr{
 				margin-top: 3vh;
 			}
+
+
 		}
 
 		
@@ -324,12 +343,9 @@
 
 
 	<header>
-		<a href="DC_Perfil.html">
-			<h2>Perfil</h2>
-		</a>
-
-		<div class="logoheader">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+	
+		<div>
+			<img src="https://pbs.twimg.com/media/Ep7VYB5XUAAn7sp?format=jpg&name=900x900">
 		</div>
 
 	</header>
@@ -363,6 +379,7 @@
 
 
 	<aside class="asidedos">
+
 		<div class="logodos">
 			<a href="DC_Perfil.html">
 				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
@@ -383,13 +400,20 @@
 
 
 	<section>
-
 		<div class="portada">
-			<img src="https://thecouch.world/wp-content/uploads/2020/10/unnamed-11.jpg" id="portada">
+			<img src="https://img-assets.drafthouse.com/images/shows/wonder-woman-1984/WW1984_Web_SHOW_H_1920x1080-copy-1.jpg?ar=3%3A1&ixlib=js-2.3.1" id="portada">
 		</div>
 		<div class="logoportada">
-			<img src="https://fanart.tv/fanart/movies/706585/hdmovielogo/zack-snyders-justice-league-5ed3f2e4952e9.png" id="logoportada">
+			<img src="https://insidepulse.com/wp-content/uploads/2020/09/WW84-logo-2-Wonder-Woman-1984.png" id="logoportada">
 		</div>
+
+
+		<a href="DC_Perfil.html">
+			<div class="perfil">
+				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
+			</div>
+		</a>
+
 
 		<hr>
 
