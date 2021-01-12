@@ -1,3 +1,551 @@
-<a href="- 1 Proximamente.html">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		body{
+			font-family: 'IBM Plex Sans', sans-serif;
+			min-width: 323px;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		header{display: none;}
+
+		.categorias{display: none;}
+
+		h2{
+			color: white;
+			text-align: right;
+			color: #2584C7;
+		}
+
+		.perfil{display: none}
+
+		.asideuno{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		.asideuno img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		.cajones{
+			width: 100%;
+			height: 120px;
+			color: white;
+			text-align: center;
+			line-height: 120px;
+			font-size: 25px;
+			transition: 0.5s;
+		}
+
+		.cajones:hover{
+			background-color: #14659E;
+			cursor: pointer;
+			color: black;
+		}
+
+		.contenedorcajon{
+			padding-top: 40px;
+		}
+
+		.asidedos{
+			width: 20%;
+			height: 100%;
+			background-color: black;
+			float: right;
+			border-left: 3px solid #14659E;
+		}
+
+		.asidedos div img{
+			width: 45%;
+
+		}
+
+		.asidedos h1{
+			text-align: center;
+			color: white;
+		}
+
+		.logodos{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		.asidedos .logodos img{
+			border-radius: 150px;
+			box-shadow: 0px 0px 0px black;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+
+		}
+		.asidedos .logodos img:hover{cursor: pointer; border:2.5px solid #14659E; box-shadow: 0px 0px 50px #14659E;}
+
+		.asidedos img{
+			width: 85%;
+			margin-top: ;
+			margin-right: 7.5%;
+			margin-bottom: 5vh;
+			margin-left: 7.5%;
+			border-radius: 30px;
+			box-shadow: 0px 0px 0px black;
+		}
+		#categorias{border:2.5px solid #191919; transition: 0.5s;}
+		#categorias:hover{cursor: pointer; border:2.5px solid #14659E; box-shadow: 0px 0px 50px #14659E;}
+		
+
+		section{
+			width: 60%;	
+			background-color: black;
+			float: center;
+			margin: 0 auto;
+		}
+
+		#portada{
+			width: 85%;
+			border-radius: 40px;
+		}
+
+		.portada{
+			text-align: center;
+			padding-top: 2vh;
+		}
+
+		#logoportada{
+			width: 35%;
+		}
+
+		.logoportada{
+			text-align: center;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section article h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		section article img{
+			display: inline-block;
+			text-align: center;
+			width: 40%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 30px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+
+		section article img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+		}
+
+		.boton{
+			width: 12%;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			border-radius: 30px;
+			border: 2.5px solid #14659E;
+			color:white;
+			margin: 0 auto;
+			margin-top: 7vh;
+			transition: 0.5s;
+		}
+		.boton:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+		}
+
+		#fotoswiki{
+			width: 24%;
+		}
+
+
+		footer{
+			width: 60%;
+			float: right;
+			background-color: black;
+		}
+
+
+
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			.asideuno{display: none; }
+			.asidedos{display: none; }
+
+			body{
+				background-color: black;
+				margin: 0;
+			}
+
+			section{
+				width: 100%;
+			}
+
+			header{
+				display: block;
+			}
+
+			.logoheader{
+				text-align: center;
+				
+			}
+			
+			header div img{
+				width: 100%;
+			
+			}
+
+			section{
+
+			}
+
+			section article h1{
+				font-size: 30px;
+				text-align: center;
+				color: white;
+			}
+
+			hr{
+				width: 80%;
+				border: 2px solid #14659E;
+				margin-top: 5vh;
+			}
+
+			section article img{
+				margin-top: 10px;
+				border-radius: 15px;
+				
+			}
+
+			.boton{
+				width: 20%;
+				height: 50%;
+				margin-top: 4vh;
+			}
+
+			.boton:hover{
+				box-shadow: none;
+				background-color: black;
+				color: white;
+			}
+
+			section article img:hover{
+				cursor: pointer;
+				border:2.5px solid #191919;
+				box-shadow: none;
+			}
+
+			.portada{
+				display: none;
+			}
+
+			.perfil{
+				display: block;
+				border-radius: 100px;
+				text-align: center;
+				
+			}
+			.perfil img{
+				width: 35%;
+				border-radius: 100px;
+				
+			}
+
+			.categorias{display: block;}
+
+			.logoportada img{
+				width: 38%;
+			}
+		
+
+			
+		}
+
+
+
+
+
+
+
+		@media screen and (max-width: 425px){
+
+
+			#fotoswiki{
+				width: 20%;
+				margin-top: 0px;
+				margin-right: 5%;
+				margin-bottom: 0;
+				margin-left: 6%;
+			}
+
+			.boton{
+				width: 35%;
+				margin-top: 2vh;
+				
+			}
+
+			section article img{
+				width: 45%;
+				margin-top: 20px;
+				border-radius: 15px;
+				margin-right: 0%;
+				margin-left: 2%;
+			}
+
+			
+
+			hr{
+				margin-top: 3vh;
+			}
+
+			.logoportada img{
+				width: 56%;
+			}
+
+
+		}
+
+		
+
+
+	</style>
+</head>
+
+
+
+
+<body>
+
+
+	<header>
+	
+		<div>
+			<img src="https://pbs.twimg.com/media/ErDPfJ2W8AYaZ9f?format=jpg&name=large">
+		</div>
+
+	</header>
+
+
+
+
+	<aside class="asideuno">
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="contenedorcajon">
+			<a href="DC_Peliculas.html">
+				<div class="cajones">Películas</div>
+			</a>
+			<a href="DC_Series.html">
+				<div class="cajones">Series</div>	
+			</a>	
+			<a href="DC_Otros.html">
+			<div class="cajones">Otros</div>
+			</a>
+			<a href="DC_Enciclopedia.html">
+				<div class="cajones">Enciclopedia</div>	
+			</a>
+		</div>	
+
+	</aside>
+
+
+
+
+	<aside class="asidedos">
+
+		<div class="logodos">
+			<a href="DC_Perfil.html">
+				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
+			</a>
+		</div>
+		<h1>Daniel Gómez González</h1>
+
+		<hr>
+
+		<h1>Proximamente</h1>
+		<a href="- 1 Proximamente.html">
+			<img id="categorias" src="https://www.denofgeek.com/wp-content/uploads/2018/09/dc-universe-streaming-service-review.jpg?fit=1600%2C900">
+		</a>
+
+		<hr>
+
+		<h1>Categorias</h1>
+		<a href="- 2 DCEU.html">
+			<img id="categorias" src="https://www.hdwallpapers.in/download/justice_league_2017_movie-2560x1440.jpg">
+		</a>
+		<a href="- 3 World of DC.html">
+			<img id="categorias" src="https://pbs.twimg.com/media/EqZ8NCQWMAE8YjW?format=jpg&name=small">
+		</a>
+		<img id="categorias" src="https://pbs.twimg.com/media/EqZ8ozmXYAIOFHu?format=jpg&name=small">
+
+	</aside>
+
+
+
+
+	<section>
+		<div class="portada">
+			<img src="https://pbs.twimg.com/media/ErDPfJtW8AAQ_4q?format=jpg&name=medium" id="portada">
+		</div>
+		<div class="logoportada">
+			<img src="https://pbs.twimg.com/media/ErDPfJ2W4AU-AoU?format=jpg&name=small">
+		</div>
+
+
+		<a href="DC_Perfil.html">
+			<div class="perfil">
+				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
+			</div>
+		</a>
+
+
+		<hr>
+
+		<article>
+			<h1>Peliculas</h1>
+			<a href="1 Peliculas/1 Man of Steel/Man of Steel.html">
+				<img src="https://www.wallpapertip.com/wmimgs/2-27154_man-of-steel-superman-flying.jpg">
+			</a>
+			<a href="1 Peliculas/2 Batman v Superman/Batman v Superman.html">
+				<img src="https://images.alphacoders.com/793/thumb-1920-793779.jpg">
+			</a>
+		</article>
+
+		<a href="DC_Peliculas.html">
+			<div class="boton">
+				Catálogo
+			</div>
+		</a>
+
+		<hr>
+
+		<article>
+			<h1>Series</h1>
+			<a href="2 Series/1 Titans/Titans.html">
+				<img src="https://wallpapercave.com/wp/wp4905439.jpg">
+			</a>
+			<img src="https://imgix-media.wbdndc.net/cms/filer_public/0a/73/0a738a4a-7ff4-4ddc-a459-6ba7f077fb37/wahtsnew_doompatrol_dcu_heroc2_mh_v11.jpg">
+		</article>
+
+		<a href="DC_Series.html">
+			<div class="boton">
+				Catálogo
+			</div>
+		</a>
+
+		
+		<hr>
+
+		<article>
+			<h1>Otros</h1>
+			<img src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbatman-arkham-city%2FEGS_WB_Batman_Arkham_City_G1_1920x1080_19_0911-1920x1080-24a7b872daf28b18cfdac0ae92e656964786a0ce.jpg?h=1080&resize=1&w=1920">
+			<img src="https://images2.alphacoders.com/529/thumb-1920-529272.jpg">
+		</article>
+
+		<a href="DC_Otros.html">
+			<div class="boton">
+				Catálogo
+			</div>
+		</a>
+
+
+		<hr>
+
+		<article>
+			<h1>Enciclopedia</h1>
+			<img id="fotoswiki" src="https://www.abc.net.au/cm/rimage/2815638-1x1-large.jpg?v=6">
+			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/1x1/public/btg/comics.batanga.com/files/los-5-mejores-arcos-argumentales-de-batman-1.jpg">
+			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/1x1/public/btg/wonder-woman-justice-league.jpg">
+		</article>
+
+		<a href="DC_Enciclopedia.html">
+			<div class="boton">
+				Enciclopedia
+			</div>
+		</a>
+
+
+		<hr>
+
+		<article class="categorias">
+			<h1>Categorias</h1>
+			<a href="- 1 Proximamente.html">
 				<img id="fotoswiki" src="https://i.pinimg.com/236x/cf/8b/23/cf8b2388dfcc1c8582e7828c799239ea.jpg">
 			</a>
+			<a href="- 2 DCEU.html">
+				<img id="fotoswiki" src="https://i.pinimg.com/236x/12/c8/c8/12c8c8eca792260bab37fd79b1642710.jpg">
+			</a>
+			<a href="- 3 World of DC.html">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/EqZ7M7qXMAA3X85?format=jpg&name=small">
+			</a>
+			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/thumbnail/public/a/animated-dcu-10th-anniversary-cover-artportada.jpg">
+
+
+			<a href="DC_Comics.html">
+				<img id="fotoswiki" src="https://i.pinimg.com/236x/cf/8b/23/cf8b2388dfcc1c8582e7828c799239ea.jpg">
+			</a>
+		</article>
+
+		<hr>
+		
+		
+
+	</section>
+
+
+
+
+
+	<footer>
+		
+		
+
+	</footer>
+
+
+
+
+
+
+
+</body>
+</html>
