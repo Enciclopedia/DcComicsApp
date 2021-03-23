@@ -49,12 +49,6 @@
 			float: right;
 		}
 
-		#portada{
-			width: 85%;
-			margin-left: 7.5%;
-			margin-top: 5vh;
-			border-radius: 40px;
-		}
 
 		hr{
 			width: 80%;
@@ -73,6 +67,44 @@
 		section h2{
 			color: white;
 			margin-left: 7.5%;
+		}
+
+		p{
+			width: 80%;
+			color: white;
+			font-size: 20px;
+		}
+
+		.episodios{
+			display: inline-block;
+			width: 24%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			
+		}
+
+		.episodios img{
+			width: 35%;
+			border-radius: 15px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+			left: 20%
+		}
+		.episodios img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+
+		}
+
+		.episodios p{
+			text-align: left;
+			color: #B3B3B3;
+			float: right;
+
 		}
 
 	
@@ -109,6 +141,17 @@
 				text-align: center;
 				color: white;
 			}
+
+			.episodios{
+				text-align: center;
+				width: 40%;	
+			}
+
+			.episodios img{
+				width: 40%;
+				border-radius: 10px;
+				
+			}
 			
 
 		}
@@ -120,6 +163,27 @@
 				hr{
 					margin-top: 2vh;
 				}
+
+			.episodios{	
+				text-align: center;
+				width: 40%;
+				margin-top: 20px;	
+			}
+
+			.episodios img{
+				width: 45%;
+				border-radius: 6px;
+				transition: 0.5s;
+				border:2.5px solid #191919;
+				box-shadow: 0px 0px 0px black;
+				left: 20%
+			}
+			
+
+			.episodios p{
+				float: right;
+				font-size: 15px;
+			}
 		}
 
 
@@ -153,40 +217,49 @@
 
 
 	<section>
-		<h1>Ranking personal</h1>
-		<hr>
 
-		<img id="portada" src="https://images.alphacoders.com/793/thumb-1920-793779.jpg">
-			<h2>Nota: 9,8</h2>
-			<h2>Visualizaciones: 19</h2>
-			<hr>
-		<img id="portada" src="https://www.wallpapertip.com/wmimgs/2-27154_man-of-steel-superman-flying.jpg">
-			<h2>Nota: 9,5</h2>
-			<h2>Visualizaciones: 13</h2>
-			<hr>
-		<img id="portada" src="https://uhdwallpapers.org/uploads/converted/18/12/03/aquaman-hero-wallpaper-1920x1080_67954-mm-90.jpg">
-			<h2>Nota: 9,3</h2>
-			<h2>Visualizaciones: 4</h2>
-			<hr>
-		<img id="portada" src="https://geektyrant.com/news/new-featurette-for-wonder-woman-1984-focuses-on-the-retro-look-of-the-film?format=2500w">
-			<h2>Nota: 8</h2>
-			<h2>Visualizaciones: 1</h2>
-			<hr>
-		<img id="portada" src="https://images.hdqwalls.com/download/diana-prince-wonder-woman-qu-1920x1080.jpg">
-			<h2>Nota: 7.2</h2>
-			<h2>Visualizaciones: 7</h2>
-			<hr>
-		<img id="portada" src="https://cardiffstudentmedia.co.uk/quench/wp-content/uploads/sites/3/2020/03/Birds-of-Prey-3.jpg">
-			<h2>Nota: 6.3</h2>
-			<h2>Visualizaciones: 4</h2>
-			<hr>
-		<img id="portada" src="https://diariodefriki.files.wordpress.com/2019/04/shazam-5c72c8156374a.jpg">
-			<h2>Nota: 6</h2>
-			<h2>Visualizaciones: 3</h2>
-			<hr>
-		<img id="portada" src="https://images5.alphacoders.com/794/thumb-1920-794142.jpg">
-			<h2>Nota: 5</h2>
-			<h2>Visualizaciones: 6</h2>
+
+		<article>
+			<h1>Episodios</h1>
+			
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMBxVKVIAIIACL?format=jpg&name=900x900">
+				<p>(9,8) [20] Batman v Superman</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMBxVJVoA03Iiw?format=jpg&name=medium">
+				<p>(9,5) [2] Zack Snyder Justice League</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMBxVTVIAMHwXK?format=jpg&name=medium">
+				<p>(9,5) [14] Man of Steel</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMBxVQU8AAF-M3?format=jpg&name=large">
+				<p>(9,3) [4] Aquaman</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMEVHBU8AAXyYf?format=jpg&name=large">
+				<p>(8) {1} Wonder Woman 1984</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMEVFxVkAQd-Yw?format=jpg&name=900x900">
+				<p>(7,2) [7] Wonder Woman</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMEVGhVkAEvabj?format=jpg&name=medium">
+				<p>(6,3) [4] Birds of Prey</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMEVE2VEAQh38X?format=jpg&name=large">
+				<p>(6) [3] Shazam</p>
+			</div>
+			<div class="episodios">
+				<img id="fotoswiki" src="https://pbs.twimg.com/media/ExMEwWzUUAEdg1N?format=jpg&name=small">
+				<p>(5) [6] Suicide Squad</p>
+			</div>
+			
+	</article>
 		
 
 		
