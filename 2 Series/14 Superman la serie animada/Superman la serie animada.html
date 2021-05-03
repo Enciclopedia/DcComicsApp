@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superman la serie animada</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		body{
+			margin: 0;
+			font-family: 'IBM Plex Sans', sans-serif;
+			min-width: 323px;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		.portadamovil{display: none;}
+
+		.botonmovil{display: none;}
+
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside div img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		.logopelicula{
+			text-align: center;
+			padding-top: 40px
+		}
+
+		.logopelicula img{
+			width: 90%;
+		}
+
+		.boton{
+			width: 70%;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			border-radius: 30px;
+			border: 2.5px solid #14659E;
+			color:white;
+			margin: 0 auto;
+			margin-top: 6vh;
+			transition: 0.5s;
+		}
+		.boton:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+			cursor: pointer;
+		}
+
+		.posteraside{
+			text-align: center;
+			margin-top: 7vh;
+		}
+		.posteraside img{border-radius: 20px;}
+
+		section{
+			width: 80%;
+			height: 100vh;
+			background-color: black;
+			float: right;
+		}
+
+		.portada img{
+			width: 85%;
+			border-radius: 40px;
+		}
+
+		.portada{
+			text-align: center;
+			padding-top: 10vh;
+		}
+
+		#logopeliculados{
+			width: 30%;
+			margin-top: -4vh;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		.detalles{
+			margin-left: 20%;
+		}
+
+		p{
+			width: 80%;
+			color: white;
+			font-size: 20px;
+		}
+
+		
+
+		.episodios{
+			display: inline-block;
+			width: 24%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			
+		}
+
+		.episodios img{
+			width: 35%;
+			border-radius: 40px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+			left: 20%
+		}
+		.episodios img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+
+		}
+
+		.episodios p{
+			text-align: left;
+			color: #B3B3B3;
+			float: right;
+
+		}
+
+
+
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{display: none;}
+
+			section{
+				width: 100%;
+			}
+			
+			.portada{
+				margin-top: -10%;
+			}
+			
+
+			#logopeliculados{
+				width: 80%;
+				margin-top: 2vh;
+
+			}
+
+			.botonmovil{
+				display: block;
+				
+				
+			}
+
+			section h1{
+				font-size: 40px;
+			}
+
+
+			.boton:hover{
+				box-shadow: none;
+				background-color: black;
+				color: white;
+				cursor: pointer;
+			}
+
+			.episodios{
+				text-align: center;
+				width: 40%;	
+			}
+
+			.episodios img{
+				width: 40%;
+				border-radius: 30px;
+				
+			}
+			
+
+			
+
+
+
+		}
+
+
+
+
+		@media screen and (max-width: 410px){
+
+			section h1{
+				font-size: 30px;
+			}
+
+			.portada{display: none;}
+
+			.portadamovil{
+				display: block;
+			}
+			.portadamovil img{width: 100%;}
+
+			#informacion{
+				font-size: 15px;
+			}
+
+			#logopeliculados{
+				width: 85%;
+			}
+
+			.botonmovil{
+				margin-top: -10%;
+			}
+
+
+			section div p{
+				width: 90%;
+			}
+
+			.episodios{	
+				text-align: center;
+				width: 40%;
+				margin-top: 20px;	
+			}
+
+			.episodios img{
+				width: 45%;
+				border-radius: 20px;
+				transition: 0.5s;
+				border:2.5px solid #191919;
+				box-shadow: 0px 0px 0px black;
+				left: 20%
+			}
+			
+
+			.episodios p{
+				float: right;
+				font-size: 15px;
+			}
+
+
+			
+
+
+		}
+
+		
+
+		
+
+
+
+
+	</style>
+</head>
+
+	
+
+
+<body>
+
+
+	<aside>
+
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="logopelicula">
+			<img src="https://pbs.twimg.com/media/E0fgEtDWQAERWy-?format=jpg&name=small">
+		</div>
+
+		<div class="posteraside">
+			<img src="https://pbs.twimg.com/media/E0fgEtDXMAQglzs?format=jpg&name=large">
+		</div>
+
+		
+
+	</aside>
+
+
+	<section>
+
+	<div class="portada">
+		<img src="https://i.pinimg.com/originals/8d/5f/3d/8d5f3d2463fcf4db24d87a5f749d9771.jpg">
+	</div>
+
+	<div class="portadamovil">
+		<img src="https://pbs.twimg.com/media/E0fgEtGXoAIOYS4?format=jpg&name=medium">
+	</div>
+
+	<div class="logopelicula">
+		<img id="logopeliculados" src="https://pbs.twimg.com/media/E0fgEtDWQAERWy-?format=jpg&name=small">
+	</div>
+
+	<hr>
+
+	<h1>Detalles</h1>
+	<div class="detalles">
+		<p>HDTV 720</p>
+		<p>Castellano</p>
+		<p id="informacion">El protagonista principal es Superman, y lo acompañan sus padres adoptivos Johnatan y Marta Kent. Al final de la segunda temporada se une a la "familia" Kara In-Ze, la última sobreviviente del planeta Argo, cercano a Krypton, a quien Superman encontró en congelación criogénica. Desarrolló los mismos poderes que Superman, y aunque en los hechos no sean parientes reales la adoptó como su "sobrina" Kara Kent. Kara trabaja como Superchica, aunque a Superman no le agrada la idea. A Clark Kent, por su parte, lo acompañan sus clásicos compañeros periodistas Luisa Lane, Jimmy Olsen y Perry White. Por el lado de los villanos, se puede destacar a Lex Luthor, en su versión de empresario; pero el más notorio es Darkseid y los habitantes de Apokolips. Además, aparecen numerosos personajes invitados, como Batman, Flash, Dr. Destino, Aquaman, Linterna Verde</p>
+	</div>
+
+	<hr>
+
+	<article>
+			<h1>Temporada 1</h1>
+			
+			<div class="episodios">
+				<a href="01 Piloto.html">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E0fgEtEXoAAGg47?format=jpg&name=medium">
+					<p>(1) Piloto</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="02 Herencia.html">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E0fgEtEXoAAGg47?format=jpg&name=medium">
+					<p>(2) Herencia</p>
+				</a>
+			</div>
+
+	</article>
+
+
+
+</body>
+</html>
