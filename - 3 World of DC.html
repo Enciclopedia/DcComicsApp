@@ -17,6 +17,10 @@
 		a{text-decoration: none;}
 
 		header{display: none;}
+
+		.logodosmovil{display: none;}
+
+		.logoheadertablet{display: none;}
 		
 		aside{
 			width: 20%;
@@ -36,9 +40,14 @@
 			padding-top: 5vh;
 		}
 
-		.contenedorcajon{
-			padding-top: 40px;
-		}
+	 	.logodos{
+	 		text-align: center;
+	 		margin-top: 18vh;
+
+	 	}
+	 	.logodos img{
+	 		width: 80%;
+	 	}
 
 
 		section{
@@ -99,10 +108,21 @@
 
 			header{display: block;}
 
-			.logoheader{
+			.logoheader{display: none;}
+
+			.logodosmovil{
+				display: block;
 				text-align: center;
-				
+				margin-bottom: 2vh;
 			}
+
+			.logodosmovil img{width: 50%}
+
+			.logoheadertablet{
+				display: block;
+			}
+
+		
 			
 			header div img{
 				width: 100%;
@@ -143,6 +163,17 @@
 
 		@media screen and (max-width: 410px){
 
+
+				.logoheadertablet{display: none;}
+
+				.logoheader{
+					display: block;
+					text-align: center;
+					
+				}
+
+				.logodosmovil img{width: 62%; }
+
 				section article img{
 					width: 45%;
 					margin-top: 20px;
@@ -176,6 +207,14 @@
 			<img src="https://pbs.twimg.com/media/EqZ7M7ZXcAcqbBS?format=jpg&name=large">
 		</div>
 
+		<div class="logoheadertablet">
+			<img src="https://pbs.twimg.com/media/E3de8xBXIAQB9w4?format=jpg&name=360x360">
+		</div>
+
+		<div class="logodosmovil">
+			<img src="https://pbs.twimg.com/media/E3hIJ13WYAETNax?format=jpg&name=small">
+		</div>	
+
 	</header>
 
 
@@ -184,9 +223,9 @@
 			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
 		</div>
 
-		<div class="contenedorcajon">
-			
-		</div>	
+		<div class="logodos">
+			<img src="https://pbs.twimg.com/media/E3hIJ13WYAETNax?format=jpg&name=small">
+		</div>		
 
 	</aside>
 
