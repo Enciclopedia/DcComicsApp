@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>index</title>
+	<title>Trilogia de Nolan</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
-	<meta charset="utf-8">
 	<style type="text/css">
 
 		body{
 			font-family: 'IBM Plex Sans', sans-serif;
-			min-width: 323px;
+			margin: 0;
 			background-color: black;
 		}
 
@@ -18,19 +18,11 @@
 
 		header{display: none;}
 
-		.gif{display: none;}
+		.logodosmovil{display: none;}
 
-		.categorias{display: none;}
-
-		h2{
-			color: white;
-			text-align: right;
-			color: #2584C7;
-		}
-
-		.perfil{display: none}
-
-		.asideuno{
+		.logoheadertablet{display: none;}
+		
+		aside{
 			width: 20%;
 			height: 100vh;
 			background-color: black;
@@ -39,7 +31,7 @@
 			position: fixed;
 		}
 
-		.asideuno img{
+		aside img{
 			width: 45%;
 		}
 
@@ -48,94 +40,19 @@
 			padding-top: 5vh;
 		}
 
-		.cajones{
-			width: 100%;
-			height: 120px;
-			color: white;
-			text-align: center;
-			line-height: 120px;
-			font-size: 25px;
-			transition: 0.5s;
-		}
+	 	.logodos{
+	 		text-align: center;
+	 		margin-top: 18vh;
+	 	}
+	 	.logodos img{
+	 		width: 80%;
+	 	}
 
-		.cajones:hover{
-			background-color: #14659E;
-			cursor: pointer;
-			color: black;
-		}
-
-		.contenedorcajon{
-			padding-top: 40px;
-		}
-
-		.asidedos{
-			width: 20%;
-			height: 100%;
-			background-color: black;
-			float: right;
-			border-left: 3px solid #14659E;
-		}
-
-		.asidedos div img{
-			width: 45%;
-
-		}
-
-		.asidedos h1{
-			text-align: center;
-			color: white;
-		}
-
-		.logodos{
-			text-align: center;
-			padding-top: 5vh;
-		}
-
-		.asidedos .logodos img{
-			border-radius: 150px;
-			box-shadow: 0px 0px 0px black;
-			transition: 0.5s;
-			border:2.5px solid #191919;
-
-		}
-		.asidedos .logodos img:hover{cursor: pointer; border:2.5px solid #14659E; box-shadow: 0px 0px 50px #14659E;}
-
-		.asidedos img{
-			width: 85%;
-			margin-top: ;
-			margin-right: 7.5%;
-			margin-bottom: 5vh;
-			margin-left: 7.5%;
-			border-radius: 30px;
-			box-shadow: 0px 0px 0px black;
-		}
-		#categorias{border:2.5px solid #191919; transition: 0.5s;}
-		#categorias:hover{cursor: pointer; border:2.5px solid #14659E; box-shadow: 0px 0px 50px #14659E;}
-		
 
 		section{
-			width: 60%;	
+			width: 80%;
 			background-color: black;
-			float: center;
-			margin: 0 auto;
-		}
-
-		#portada{
-			width: 85%;
-			border-radius: 40px;
-		}
-
-		.portada{
-			text-align: center;
-			padding-top: 2vh;
-		}
-
-		#logoportada{
-			width: 35%;
-		}
-
-		.logoportada{
-			text-align: center;
+			float: right;
 		}
 
 		hr{
@@ -171,101 +88,58 @@
 			box-shadow: 0px 0px 80px #14659E;
 		}
 
-		.boton{
-			width: 12%;
-			height: 60px;
-			text-align: center;
-			line-height: 60px;
-			border-radius: 30px;
-			border: 2.5px solid #14659E;
-			color:white;
-			margin: 0 auto;
-			margin-top: 7vh;
-			transition: 0.5s;
+		#logopelicula{
+			border:2.5px solid black;
+			margin-bottom: 6vh;
 		}
-		.boton:hover{
-			box-shadow: 0px 0px 50px #14659E;
-			background-color: #14659E;
-			color: black;
+		#logopelicula:hover{
+			box-shadow: 0px 0px 80px black;
 		}
-
-		#fotoswiki{
-			width: 24%;
-		}
-
-
-		footer{
-			width: 60%;
-			float: right;
-			background-color: black;
-		}
-
-
-
 
 
 
 
 		@media screen and (max-width: 768px){
 
-			.asideuno{display: none; }
-			.asidedos{display: none; }
-			.gif{display: block;}
+			aside{
+				display: none;
+			}
 
-			body{
-				background-color: black;
-				margin: 0;
+			header{display: block;}
+
+			.logoheader{display: none;}
+
+			.logodosmovil{
+				display: block;
+				text-align: center;
+				margin-bottom: 2vh;
+			}
+
+			.logodosmovil img{width: 50%}
+
+			.logoheadertablet{
+				display: block;
+			}
+
+		
+			
+			header div img{
+				width: 100%;
+	
 			}
 
 			section{
 				width: 100%;
 			}
 
-			header{
-				display: block;
-			}
-
-			.logoheader{
-				text-align: center;
+			section article img{				
+				border-radius: 15px;
 				
-			}
-			
-			header div img{
-				display: none;
-			
-			}
-
-			section{
-
 			}
 
 			section article h1{
 				font-size: 30px;
 				text-align: center;
-				color: white;
-			}
-
-			hr{
-				width: 80%;
-				border: 2px solid #14659E;
-				margin-top: 5vh;
-			}
-
-			section article img{
-				margin-top: 10px;
-				border-radius: 15px;
-				
-			}
-
-			.boton{
-				width: 20%;
-				height: 50%;
-				margin-top: 4vh;
-			}
-
-			.boton:hover{
-				box-shadow: none;
-				background-color: black;
 				color: white;
 			}
 
@@ -275,103 +149,47 @@
 				box-shadow: none;
 			}
 
-			
-
-			.perfil{
-				display: block;
-				border-radius: 100px;
-				text-align: center;
+			#logopelicula{
+				border:2.5px solid black;
+				margin-bottom: 3vh;
+			}
 				
-			}
-			.perfil img{
-				width: 30%;
-				border-radius: 100px;
-				
-			}
-
-			.categorias{display: block;}
-
-			.logoportada img{
-				width: 48%;
-			}
-
-			.gif{
-				text-align: center;
-				margin-top: 4vh;
-			}
-
-			.gif img{
-				width: 70%;
-				border-radius: 20px;
-			}
-		
-
-			
 		}
 
 
 
 
 
+		@media screen and (max-width: 410px){
 
 
-		@media screen and (max-width: 425px){
+				.logoheadertablet{display: none;}
 
+				.logoheader{
+					display: block;
+					text-align: center;
+					
+				}
 
-			#fotoswiki{
-				width: 20%;
-				margin-top: 0px;
-				margin-right: 5%;
-				margin-bottom: 0;
-				margin-left: 6%;
-			}
+				.logodosmovil img{width: 60%}
 
-			.portada{
-				display: none;
-			}
+				section article img{
+					width: 45%;
+					margin-top: 20px;
+					border-radius: 15px;
+					margin-right: 0%;
+					margin-left: 2%;
+				}
 
-			.boton{
-				width: 35%;
-				margin-top: 2vh;
-				
-			}
+				hr{
+					margin-top: 2vh;
+				}
 
-			header div img{
-				display: block;
-				width: 100%;
-			}
-
-			section article img{
-				width: 45%;
-				margin-top: 20px;
-				border-radius: 15px;
-				margin-right: 0%;
-				margin-left: 2%;
-			}
-
-			
-
-			hr{
-				margin-top: 3vh;
-			}
-
-			.logoportada img{
-				width: 65%;
-				margin-top: 0vh;
-			}
-
-
-			.perfil img{
-				width: 35%;
-			}
-
-			.gif{
-				margin-top: 3vh;
-			}
-
+				#logopelicula{
+					border:2.5px solid black;
+					margin-bottom: 1.5vh;
+				}
 		}
-
-		
 
 
 	</style>
@@ -380,41 +198,32 @@
 
 
 
+
 <body>
 
-
 	<header>
-	
-		<div>
-			<img src="https://pbs.twimg.com/media/E3ReRAeXoAAnhx8?format=jpg&name=900x900">
+		<div class="logoheader">
+			<img src="https://pbs.twimg.com/media/E3iHPzWWQAcGFkm?format=jpg&name=small">
 		</div>
+
+		<div class="logoheadertablet">
+			<img src="https://pbs.twimg.com/media/E3iLqukXMA0uSrf?format=jpg&name=360x360">
+		</div>
+
+		<div class="logodosmovil">
+			<img src="https://pbs.twimg.com/media/E3iLquuX0AYdjFF?format=jpg&name=900x900">
+		</div>	
 
 	</header>
 
 
-
-
-	<aside class="asideuno">
+	<aside>
 		<div class="logo">
 			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
 		</div>
 
-		<div class="contenedorcajon">
-			<a href="DC_Peliculas.html">
-				<div class="cajones">Películas</div>
-			</a>
-			<a href="DC_Series.html">
-				<div class="cajones">Series</div>	
-			</a>	
-			<a href="DC_Otros.html">
-			<div class="cajones">Otros</div>
-			</a>
-			<a href="DC_Comics.html">
-				<div class="cajones">Comics</div>	
-			</a>
-			<a href="DC_Enciclopedia.html">
-				<div class="cajones">Enciclopedia</div>	
-			</a>
+		<div class="logodos">
+			<img src="https://pbs.twimg.com/media/E3iLquuX0AYdjFF?format=jpg&name=900x900">
 		</div>	
 
 	</aside>
@@ -422,199 +231,49 @@
 
 
 
-	<aside class="asidedos">
-
-		<div class="logodos">
-			<a href="DC_Perfil.html">
-				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
-			</a>
-		</div>
-		<h1>Daniel Gómez González</h1>
-
-		<hr>
-
-		<h1>Proximamente</h1>
-		<a href="- 1 Proximamente.html">
-			<img id="categorias" src="https://www.denofgeek.com/wp-content/uploads/2018/09/dc-universe-streaming-service-review.jpg?fit=1600%2C900">
-		</a>
-
-		<hr>
-
-		<h1>Categorias</h1>
-		<a href="- 2 DCEU.html">
-			<img id="categorias" src="https://pbs.twimg.com/media/Ez_ie3cXMAI1MnG?format=jpg&name=small">
-		</a>
-		<a href="- 3 World of DC.html">
-			<img id="categorias" src="https://pbs.twimg.com/media/EqZ8NCQWMAE8YjW?format=jpg&name=small">
-		</a>
-		<img id="categorias" src="https://pbs.twimg.com/media/EqZ8ozmXYAIOFHu?format=jpg&name=small">
-		<a href="- 4 Nuevo DCAU.html">
-			<img id="categorias" src="https://pbs.twimg.com/media/E0OixUCXEAA8YtM?format=jpg&name=large">
-		</a>
-		<a href="- 5 Lego DC.html">
-			<img id="categorias" src="https://pbs.twimg.com/media/E3hKnZDXIAAFBFt?format=jpg&name=small">
-		</a>
-		
-
-	</aside>
-
-
-
-
 	<section>
-		<div class="portada">
-			<img src="https://getyourcomicon.co.uk/wp-content/uploads/2021/04/BatmanLongHalloween-CoverArt-Header.jpg" id="portada">
-		</div>
-		<div class="logoportada">
-			<img src="https://pbs.twimg.com/media/E2aUa-MXoAg0Msi?format=png&name=small">
-		</div>
-
-
-		<a href="DC_Perfil.html">
-			<div class="perfil">
-				<img src="https://pbs.twimg.com/media/Ep1aOycWMAUS55J?format=jpg&name=small">
-			</div>
-		</a>
-
-		<div class="gif">
-				<img src="https://64.media.tumblr.com/4843a96306c16800fd83ee01b3e43d07/a4ea5cf4cca572ab-95/s540x810/af6658f6aeee5a7b4597734c205194c485630658.gifv">
-		</div>
-
-
-		<hr>
-
-		<article>
-			<h1>Peliculas</h1>
-			<a href="1 Peliculas/96 Justice Society World War II/Justice Society World War II.html">
-				<img src="https://pbs.twimg.com/media/Ez_8UHrXIAEERqC?format=jpg&name=large">
-			</a>
-			<a href="1 Peliculas/95 Batman SoTD/Batman SoTD.html">
-				<img src="https://pbs.twimg.com/media/Er9lp2JXcAMrCOW?format=jpg&name=large">	
-			</a>	
-			
-		</article>
-
-		<a href="DC_Peliculas.html">
-			<div class="boton">
-				Catálogo
-			</div>
-		</a>
-
-		<hr>
-
-		<article>
-			<h1>Series</h1>
-			<a href="2 Series/9 Superman and Lois/Superman and Lois.html">
-				<img src="https://pbs.twimg.com/media/Eu_toy4WQAI-Nv6?format=jpg&name=large">
-			</a>
-			<img src="https://www.thecinemaspot.com/wp-content/uploads/2020/09/thumb-1920-1080839.jpg">
-		</article>
-
-		<a href="DC_Series.html">
-			<div class="boton">
-				Catálogo
-			</div>
-		</a>
-
 		
-		<hr>
-
 		<article>
-			<h1>Otros</h1>
-			<img src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbatman-arkham-city%2FEGS_WB_Batman_Arkham_City_G1_1920x1080_19_0911-1920x1080-24a7b872daf28b18cfdac0ae92e656964786a0ce.jpg?h=1080&resize=1&w=1920">
-			<img src="https://images2.alphacoders.com/529/thumb-1920-529272.jpg">
-		</article>
-
-		<a href="DC_Otros.html">
-			<div class="boton">
-				Catálogo
-			</div>
-		</a>
-
-		<hr>
-
-		<article>
-			<h1>Comics</h1>
-			<a href="https://issuu.com/padaviramirez/docs/batman_20-_20three_20jokers">
-				<img id="fotoswiki" src="https://comicbooked.com/wp-content/uploads/2020/08/Batman3jokers1-397x600.jpg">
-			</a>
-			<a href="https://issuu.com/padaviramirez/docs/batman_-_three_jokers_02">
-				<img id="fotoswiki" src="https://www.radarcomics.com/es/imagenes/8788400/878840025839.JPG">
-			</a>
-			<a href="https://issuu.com/padaviramirez/docs/batman_-_three_jokers_03">
-				<img id="fotoswiki" src="https://i2.wp.com/www.geekadrome.com/wp-content/uploads/2020/10/Three-Jokers-3-CVA.jpg?fit=324%2C498&ssl=1">
-			</a>
-		</article>
-
-		<a href="DC_Comics.html">
-			<div class="boton">
-				Catálogo
-			</div>
-		</a>
-
-
-		<hr>
-
-		<article>
-			<h1>Enciclopedia</h1>
-			<img id="fotoswiki" src="https://www.abc.net.au/cm/rimage/2815638-1x1-large.jpg?v=6">
-			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/1x1/public/btg/comics.batanga.com/files/los-5-mejores-arcos-argumentales-de-batman-1.jpg">
-			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/1x1/public/btg/wonder-woman-justice-league.jpg">
-		</article>
-
-		<a href="DC_Enciclopedia.html">
-			<div class="boton">
-				Enciclopedia
-			</div>
-		</a>
-
-
-		<hr>
-
-		<article class="categorias">
-			<h1>Categorias</h1>
-			<a href="- 1 Proximamente.html">
-				<img id="fotoswiki" src="https://i.pinimg.com/236x/cf/8b/23/cf8b2388dfcc1c8582e7828c799239ea.jpg">
-			</a>
-			<a href="- 2 DCEU.html">
-				<img id="fotoswiki" src="https://i.pinimg.com/236x/12/c8/c8/12c8c8eca792260bab37fd79b1642710.jpg">
-			</a>
-			<a href="- 3 World of DC.html">
-				<img id="fotoswiki" src="https://pbs.twimg.com/media/EqZ7M7qXMAA3X85?format=jpg&name=small">
-			</a>
-			<img id="fotoswiki" src="https://static.vix.com/es/sites/default/files/styles/thumbnail/public/a/animated-dcu-10th-anniversary-cover-artportada.jpg">
-			</a>
-			<a href="- 4 Nuevo DCAU.html">
-				<img id="fotoswiki" src="https://pbs.twimg.com/media/E0OixUCX0AYJF97?format=jpg&name=medium">
-			</a>
-			<a href="- 5 Lego DC.html">
-				<img id="fotoswiki" src="https://pbs.twimg.com/media/E3hKnZEX0AYvVr0?format=jpg&name=360x360">
-			</a>
 
 
 			
+			
+			<img id="logopelicula" src="https://picfiles.alphacoders.com/591/59195.png">
+			<a href="1 Peliculas/10 Batman Begins/Batman Begins.html">
+				<img src="https://www.bosshunting.com.au/wp-content/uploads/2020/06/228009-digital_art-movies-Batman_Begins-Batman-bats.jpg">
+			</a>
+			<img id="logopelicula" src="https://www.pngkey.com/png/full/818-8188774_dark-knight-logo-png.png">
+			<a href="1 Peliculas/11 The Dark Knight/The Dark Knight.html">
+				<img src="https://images8.alphacoders.com/457/thumb-1920-457955.jpg">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/Ez6W8ZdXMAQ95Ua?format=jpg&name=small">
+			<a href="1 Peliculas/12 The Dark Knight Rises/The Dark Knight Rises.html">
+				<img src="https://assets2.ignimgs.com/2014/12/09/the-dark-knight-rises-batmanwallpapers336631280x720jpg-886a28.jpg">
+			</a>
+
+
+			<hr>
+
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E3gOB5BXIAMPTQ3?format=jpg&name=small">
+			<a href="3 Otros/13 Batman Begins/Batman Begins.html">
+				<img src="https://pbs.twimg.com/media/EsArAdHXYAUstyf?format=jpg&name=small">
+			</a>
+
+
+			<hr>
+
+			
+			
+			
+
 		</article>
 
-		<hr>
 		
-		
+
+
 
 	</section>
-
-
-
-
-
-	<footer>
-		
-		
-
-	</footer>
-
-
-
-
-
 
 
 </body>
