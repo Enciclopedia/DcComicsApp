@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saga Arkham</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		body{
+			font-family: 'IBM Plex Sans', sans-serif;
+			margin: 0;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		header{display: none;}
+
+		.logodosmovil{display: none;}
+
+		.logoheadertablet{display: none;}
+		
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+	 	.logodos{
+	 		text-align: center;
+	 		margin-top: 18vh;
+
+	 	}
+	 	.logodos img{
+	 		width: 80%;
+	 	}
+
+
+		section{
+			width: 80%;
+			background-color: black;
+			float: right;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section article h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		section article img{
+			display: inline-block;
+			text-align: center;
+			width: 40%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 30px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+
+		section article img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+		}
+
+		#logopelicula{
+			border:2.5px solid black;
+			margin-bottom: 6vh;
+		}
+		#logopelicula:hover{
+			box-shadow: 0px 0px 80px black;
+		}
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{
+				display: none;
+			}
+
+			header{display: block;}
+
+			.logoheader{display: none;}
+
+			.logodosmovil{
+				display: block;
+				text-align: center;
+				margin-bottom: 2vh;
+			}
+
+			.logodosmovil img{width: 50%}
+
+			.logoheadertablet{
+				display: block;
+			}
+
+		
+			
+			header div img{
+				width: 100%;
+	
+			}
+
+			section{
+				width: 100%;
+			}
+
+			section article img{				
+				border-radius: 15px;
+				
+			}
+
+			section article h1{
+				font-size: 30px;
+				text-align: center;
+				color: white;
+			}
+
+			section article img:hover{
+				cursor: pointer;
+				border:2.5px solid #191919;
+				box-shadow: none;
+			}
+
+			#logopelicula{
+				border:2.5px solid black;
+				margin-bottom: 3vh;
+			}
+				
+		}
+
+
+
+
+
+		@media screen and (max-width: 410px){
+
+
+				.logoheadertablet{display: none;}
+
+				.logoheader{
+					display: block;
+					text-align: center;
+					
+				}
+
+				.logodosmovil img{width: 62%; }
+
+				section article img{
+					width: 45%;
+					margin-top: 20px;
+					border-radius: 15px;
+					margin-right: 0%;
+					margin-left: 2%;
+				}
+
+				hr{
+					margin-top: 2vh;
+				}
+
+				#logopelicula{
+					border:2.5px solid black;
+					margin-bottom: 1.5vh;
+				}
+		}
+
+
+	</style>
+</head>
+
+
+
+
+
+<body>
+
+	<header>
+		<div class="logoheader">
+			<img src="https://pbs.twimg.com/media/E31WGozX0AQb3W3?format=jpg&name=small">
+		</div>
+
+		<div class="logoheadertablet">
+			<img src="https://pbs.twimg.com/media/E31WGpgXMAUP1Vq?format=jpg&name=360x360">
+		</div>
+
+		<div class="logodosmovil">
+			<img src="https://pbs.twimg.com/media/E31S6QdXMAAkSH_?format=jpg&name=small">
+		</div>	
+
+	</header>
+
+
+	<aside>
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="logodos">
+			<img src="https://pbs.twimg.com/media/E31S6QdXMAAkSH_?format=jpg&name=small">
+		</div>	
+
+
+	</aside>
+
+
+
+
+	<section>
+		
+		<article>
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31VAi6XwAAXYUL?format=jpg&name=900x900">
+			<a href="3 Otros/1 Batman Arkham Asylum/Batman Arkham Asylum.html">
+				<img src="https://images3.alphacoders.com/589/thumb-1920-589853.jpg">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31VAi-XMAcbf9d?format=jpg&name=small">
+			<a href="3 Otros/2 Batman Arkham City/Batman Arkham City.html">
+				<img src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbatman-arkham-city%2FEGS_WB_Batman_Arkham_City_G1_1920x1080_19_0911-1920x1080-24a7b872daf28b18cfdac0ae92e656964786a0ce.jpg">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31S6QhWEAIfJcZ?format=jpg&name=small">
+			<a href="3 Otros/3 Batman Arkham Origins/Batman Arkham Origins.html">
+				<img src="https://images2.alphacoders.com/529/thumb-1920-529272.jpg">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31VAi4XMAMjrkG?format=jpg&name=small">
+			<a href="3 Otros/4 Batman Arkham Knight/Batman Arkham Knight.html">
+				<img src="https://pbs.twimg.com/media/E31XfspXEAgH6Z3?format=jpg&name=small">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31S6QbWYAInm6F?format=jpg&name=small">
+			<a href="">
+				<img src="https://pbs.twimg.com/media/E30pv03XEAEIyOE?format=jpg&name=small">
+			</a>
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E31S6QZXMAUDRip?format=jpg&name=small">
+			<a href="">
+				<img src="https://pbs.twimg.com/media/E30pv06XMAMJ595?format=jpg&name=small">
+			</a>
+			
+
+		</article>
+
+		<hr>
+
+		
+
+
+
+	</section>
+
+
+</body>
+</html>
