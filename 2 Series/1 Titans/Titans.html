@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Titans</title>
+	<title>Temporada 1</title>
 	<meta name="viewport" content="width=device-width, user-scalable=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
@@ -57,7 +57,7 @@
 			border: 2.5px solid #14659E;
 			color:white;
 			margin: 0 auto;
-			margin-top: 7vh;
+			margin-top: 6vh;
 			transition: 0.5s;
 		}
 		.boton:hover{
@@ -91,7 +91,8 @@
 		}
 
 		#logopeliculados{
-			width: 40%;
+			width: 30%;
+			margin-top: -4vh;
 		}
 
 		hr{
@@ -117,25 +118,40 @@
 			font-size: 20px;
 		}
 
-		#fotoswiki{
-			width: 8%;
+		
+
+		.episodios{
 			display: inline-block;
-			text-align: center;
+			width: 24%;
 			margin-top: 50px;
 			margin-right: 2%;
 			margin-bottom: 0;
 			margin-left: 5.5%;
-			border-radius: 20px;
+			
+		}
+
+		.episodios img{
+			width: 35%;
+			border-radius: 40px;
 			transition: 0.5s;
 			border:2.5px solid #191919;
 			box-shadow: 0px 0px 0px black;
+			left: 20%
 		}
-		#fotoswiki:hover{
-			box-shadow: 0px 0px 50px #14659E;
-			background-color: #14659E;
-			color: black;
+		.episodios img:hover{
 			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+
 		}
+
+		.episodios p{
+			text-align: left;
+			color: #B3B3B3;
+			float: right;
+
+		}
+
 
 
 
@@ -149,27 +165,28 @@
 			section{
 				width: 100%;
 			}
-
-			.portada{display: none;}
-
-			.portadamovil{
-				display: block;
+			
+			.portada{
+				margin-top: -10%;
 			}
-			.portadamovil img{width: 100%;}
+			
 
 			#logopeliculados{
-				width: 93%;
-				margin-top: vh;
+				width: 80%;
+				margin-top: 2vh;
+
+			}
+
+			.botonmovil{
+				display: block;
+				
+				
 			}
 
 			section h1{
 				font-size: 40px;
 			}
 
-			#fotoswiki{
-			width: 11%;
-
-			}
 
 			.boton:hover{
 				box-shadow: none;
@@ -178,12 +195,19 @@
 				cursor: pointer;
 			}
 
-			.fotoswiki:hover{
-				box-shadow: black;
-				background-color: black;
-				color: white;
-				cursor: pointer;
+			.episodios{
+				text-align: center;
+				width: 40%;	
 			}
+
+			.episodios img{
+				width: 40%;
+				border-radius: 30px;
+				
+			}
+			
+
+			
 
 
 
@@ -198,23 +222,51 @@
 				font-size: 30px;
 			}
 
+			.portada{display: none;}
+
+			.portadamovil{
+				display: block;
+			}
+			.portadamovil img{width: 100%;}
+
 			#informacion{
 				font-size: 15px;
 			}
 
-
-
-			#fotoswiki{
-				width: 20%;
-				margin-top: 50px;
-				margin-right: 5%;
-				margin-bottom: 0;
-				margin-left: 6%;
+			#logopeliculados{
+				width: 85%;
 			}
+
+			.botonmovil{
+				margin-top: -10%;
+			}
+
 
 			section div p{
 				width: 90%;
 			}
+
+			.episodios{	
+				text-align: center;
+				width: 40%;
+				margin-top: 26px;	
+			}
+
+			.episodios img{
+				width: 45%;
+				border-radius: 20px;
+				transition: 0.5s;
+				border:2.5px solid #191919;
+				box-shadow: 0px 0px 0px black;
+				left: 20%
+			}
+			
+
+			.episodios p{
+				float: right;
+				font-size: 15px;
+			}
+
 
 			
 
@@ -259,38 +311,106 @@
 	<section>
 
 	<div class="portada">
-		<img src="https://wallpapercave.com/wp/wp4905439.jpg">
+		<img src="https://images.hdqwalls.com/download/titans-poster-4k-tl-1280x720.jpg">
 	</div>
 
 	<div class="portadamovil">
-		<img src="https://pbs.twimg.com/media/EqKVOLeXMAIuiDO?format=jpg&name=900x900">
+		<img src="https://pbs.twimg.com/media/E36EOWcXMAAO2hN?format=jpg&name=small">
 	</div>
 
-	<div class="logopelicula">
-		<img id="logopeliculados" src="https://pbs.twimg.com/media/E35-RY9WYAUfjFD?format=jpg&name=small">
-	</div>
-
-	<hr>
-
-	<h1>Detalles</h1>
-	<div class="detalles">
-		<p>720p</p>
-		<p>Castellano</p>
-		<p id="informacion">Cuando Dick Grayson (Robin) y Rachel Roth (Raven) necesitan ayuda para acabar con una fuerza que amenaza con acabar con el planeta, forman los Titanes junto a Korland (Starfire) y Gar Logan (Beast Boy).</p>
-	</div>
-
-	<hr>
-
-	<h1>Temporadas</h1>
-	<a href="Temporada 1.html">
-		<div class="boton">Temporada 1</div>
-	</a>
-	<div class="boton">Temporada 2</div>
 	
 
-	<hr>	
+	
 
 
+	<article>
+
+		
+			<h1>Temporada 1</h1>
+			
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=OCbyy3kSLvQ">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(1) Titans</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=jy-9KvL4KiI">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(2) Halcón y Paloma</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=dlNTIRT6L68">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(3) Orígenes</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=rSayDj3PT5c">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(4) Doom Patrol</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=YvXzsloG2k8">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(5) Juntos</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=pQ-kx_I8SZ0">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(6) Jason Todd</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=qG8jOqTeWgo">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(7) El Asilo</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=8e0Y4I6kh6Y">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(8) Donna Troy</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=O1Qnqzw9ak8">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(9) Hank y Dawn</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=5XfXea30-40">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(10) Koriand´r</p>
+				</a>
+			</div>
+
+			<div class="episodios">
+				<a href="https://www.youtube.com/watch?v=GgS_0-7hZuQ">
+					<img id="fotoswiki" src="https://pbs.twimg.com/media/E36ACPfXEAMW-nw?format=jpg&name=360x360">
+					<p>(11) Dick Grayson</p>
+				</a>
+			</div>
+
+			
+
+	</article>
+
+	<hr>
+	
 
 </body>
 </html>
