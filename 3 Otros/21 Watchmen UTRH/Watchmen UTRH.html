@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watchmen UTRH</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+	body{
+			margin: 0;
+			font-family: 'IBM Plex Sans', sans-serif;
+			min-width: 323px;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		.portadamovil{display: none;}
+
+		.botonmovil{display: none;}
+
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside div img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+		.logopelicula{
+			text-align: center;
+			padding-top: 40px
+		}
+
+		.logopelicula img{
+			width: 90%;
+		}
+
+		.boton{
+			width: 70%;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			border-radius: 30px;
+			border: 2.5px solid #14659E;
+			color:white;
+			margin: 0 auto;
+			margin-top: 6vh;
+			transition: 0.5s;
+		}
+		.boton:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+			cursor: pointer;
+		}
+
+		.posteraside{
+			text-align: center;
+			margin-top: 7vh;
+		}
+		.posteraside img{border-radius: 20px;}
+
+		section{
+			width: 80%;
+			height: 100vh;
+			background-color: black;
+			float: right;
+		}
+
+		.portada img{
+			width: 85%;
+			border-radius: 40px;
+		}
+
+		.portada{
+			text-align: center;
+			padding-top: 10vh;
+		}
+
+		#logopeliculados{
+			width: 30%;
+			margin-top: -4vh;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		.detalles{
+			margin-left: 20%;
+		}
+
+		p{
+			width: 80%;
+			color: white;
+			font-size: 20px;
+		}
+
+		#fotoswiki{
+			width: 8%;
+			display: inline-block;
+			text-align: center;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 20px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+		#fotoswiki:hover{
+			box-shadow: 0px 0px 50px #14659E;
+			background-color: #14659E;
+			color: black;
+			cursor: pointer;
+		}
+
+
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{display: none;}
+
+			section{
+				width: 100%;
+			}
+			
+			.portada{
+				margin-top: -10%;
+			}
+			
+
+			#logopeliculados{
+				width: 80%;
+				margin-top: 2vh;
+
+			}
+
+			.botonmovil{
+				display: block;
+				
+				
+			}
+
+			section h1{
+				font-size: 40px;
+			}
+
+			#fotoswiki{
+			width: 11%;
+
+			}
+
+			.boton:hover{
+				box-shadow: none;
+				background-color: black;
+				color: white;
+				cursor: pointer;
+			}
+
+
+
+		}
+
+
+
+
+		@media screen and (max-width: 410px){
+
+			section h1{
+				font-size: 30px;
+			}
+
+			.portada{display: none;}
+
+			.portadamovil{
+				display: block;
+			}
+			.portadamovil img{width: 100%;}
+
+			#informacion{
+				font-size: 15px;
+			}
+
+			#logopeliculados{
+				width: 90%;
+				margin-top: -5vh;
+
+			}
+
+			.botonmovil{
+				margin-top: -13%;
+			}
+
+
+			#fotoswiki{
+				width: 20%;
+				margin-top: 0px;
+				margin-right: 5%;
+				margin-bottom: 0;
+				margin-left: 6%;
+			}
+
+			section div p{
+				width: 90%;
+			}
+
+			
+
+
+		}
+		
+
+		
+
+
+
+
+	</style>
+</head>
+
+	
+
+
+<body>
+
+
+	<aside>
+
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="logopelicula">
+			<img src="https://pbs.twimg.com/media/E4e5REEXIAMj4xI?format=jpg&name=900x900">
+		</div>
+
+		<a href="https://www.youtube.com/watch?v=DSlCf8ltbo0">
+			<div class="boton">Ver película</div>
+		</a>
+
+		<div class="posteraside">
+			<img src="">
+		</div>
+
+		
+
+	</aside>
+
+
+	<section>
+
+	<div class="portada">
+		<img src="https://pbs.twimg.com/media/E4e5REFWUAcH8ea?format=jpg&name=large">
+	</div>
+
+	<div class="portadamovil">
+		<img src="https://pbs.twimg.com/media/E4e5REFXwAU3d5N?format=jpg&name=4096x4096">
+	</div>
+
+	<div class="logopelicula">
+		<img id="logopeliculados" src="https://pbs.twimg.com/media/E4e5REEXIAMj4xI?format=jpg&name=900x900">
+	</div>
+
+	<a class="botonmovil" href="https://www.youtube.com/watch?v=DSlCf8ltbo0">
+			<div class="boton">Ver película</div>
+		</a>
+
+	<hr>
+
+	<h1>Detalles</h1>
+	<div class="detalles">
+		<p>480p</p>
+		<p>Castellano</p>
+		<p>0:35:55</p>
+		<p id="informacion">Conocemos un poco de la historia de uno de los dibujantes top a dia de hoy, el Español Jorge Jimenez</p>
+	</div>
+
+	
+
+	<article>
+			
+
+	</article>
+
+	<hr>
+
+
+	</section>
+
+	
+
+	
+
+
+
+
+</body>
+</html>
