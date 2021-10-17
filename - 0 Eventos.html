@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		body{
+			font-family: 'IBM Plex Sans', sans-serif;
+			margin: 0;
+			background-color: black;
+		}
+
+		a{text-decoration: none;}
+
+		header{display: none;}
+
+		.logodosmovil{display: none;}
+
+		.logoheadertablet{display: none;}
+		
+		aside{
+			width: 20%;
+			height: 100vh;
+			background-color: black;
+			float: left;
+			border-right: 3px solid #14659E;
+			position: fixed;
+		}
+
+		aside img{
+			width: 45%;
+		}
+
+		.logo{
+			text-align: center;
+			padding-top: 5vh;
+		}
+
+	 	.logodos{
+	 		text-align: center;
+	 		margin-top: 18vh;
+	 	}
+	 	.logodos img{
+	 		width: 80%;
+	 	}
+
+
+		section{
+			width: 80%;
+			background-color: black;
+			float: right;
+		}
+
+		hr{
+			width: 80%;
+			border: 2px solid #14659E;
+			margin-top: 8vh;
+			margin-bottom: 0;
+		}
+
+		section article h1{
+			font-size: 70px;
+			text-align: center;
+			color: white;
+		}
+
+		section article img{
+			display: inline-block;
+			text-align: center;
+			width: 40%;
+			margin-top: 50px;
+			margin-right: 2%;
+			margin-bottom: 0;
+			margin-left: 5.5%;
+			border-radius: 30px;
+			transition: 0.5s;
+			border:2.5px solid #191919;
+			box-shadow: 0px 0px 0px black;
+		}
+
+		section article img:hover{
+			cursor: pointer;
+			border:2.5px solid #14659E;
+			box-shadow: 0px 0px 80px #14659E;
+		}
+
+		#logopelicula{
+			border:2.5px solid black;
+			margin-bottom: 6vh;
+		}
+		#logopelicula:hover{
+			box-shadow: 0px 0px 80px black;
+		}
+
+
+
+
+		@media screen and (max-width: 768px){
+
+			aside{
+				display: none;
+			}
+
+			header{display: block;}
+
+			.logoheader{display: none;}
+
+			.logodosmovil{
+				display: block;
+				text-align: center;
+				margin-bottom: 2vh;
+			}
+
+			.logodosmovil img{width: 60%}
+
+			.logoheadertablet{
+				display: block;
+			}
+
+		
+			
+			header div img{
+				width: 100%;
+	
+			}
+
+			section{
+				width: 100%;
+			}
+
+			section article img{				
+				border-radius: 15px;
+				
+			}
+
+			section article h1{
+				font-size: 30px;
+				text-align: center;
+				color: white;
+			}
+
+			section article img:hover{
+				cursor: pointer;
+				border:2.5px solid #191919;
+				box-shadow: none;
+			}
+
+			#logopelicula{
+				border:2.5px solid black;
+				margin-bottom: 3vh;
+			}
+				
+		}
+
+
+
+
+
+		@media screen and (max-width: 410px){
+
+
+				.logoheadertablet{display: none;}
+
+				.logoheader{
+					display: block;
+					text-align: center;
+					
+				}
+
+				section article img{
+					width: 45%;
+					margin-top: 20px;
+					border-radius: 15px;
+					margin-right: 0%;
+					margin-left: 2%;
+				}
+
+				hr{
+					margin-top: 2vh;
+				}
+
+				#logopelicula{
+					border:2.5px solid black;
+					margin-bottom: 1.5vh;
+				}
+		}
+
+
+	</style>
+</head>
+
+
+
+
+
+<body>
+
+	<header>
+		<div class="logoheader">
+			<img src="https://pbs.twimg.com/media/FB6BWxCWUAAESWR?format=jpg&name=4096x4096">
+		</div>
+
+		<div class="logoheadertablet">
+			<img src="https://pbs.twimg.com/media/FB6BWxCWUAAESWR?format=jpg&name=4096x4096">
+		</div>
+
+		<div class="logodosmovil">
+			<img src="https://pbs.twimg.com/media/FB57xFCWYAEDkCM?format=jpg&name=900x900">
+		</div>	
+
+	</header>
+
+
+	<aside>
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg">
+		</div>
+
+		<div class="logodos">
+			<img src="https://pbs.twimg.com/media/FB57xFCWYAEDkCM?format=jpg&name=900x900">
+		</div>	
+
+	</aside>
+
+
+
+
+	<section>
+		
+		<article>
+
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E2aUa-MXoAg0Msi?format=png&name=900x900">
+			<a href="1 Peliculas/97 Batman TLH 1/Batman TLH 1.html">
+				<img src="https://pbs.twimg.com/media/E7N9fnsWQAk8uyd?format=jpg&name=large">
+			</a>
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E7N82_PXEAEQfTE?format=jpg&name=900x900">
+			<a href="1 Peliculas/99 Batman TLH 2/Batman TLH 2.html">
+				<img src="https://pbs.twimg.com/media/E7N82_OWQAQ6MoI?format=jpg&name=900x900">
+			</a>
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E3gU4YgXMAMY2ZP?format=jpg&name=small">
+			<a href="3 Otros/14 Batman Strange Days/Batman Strange Days.html">
+				<img src="https://pbs.twimg.com/media/E6CEEjqWYAUjtEX?format=jpg&name=large">
+			</a>
+
+			<img id="logopelicula" src="https://picfiles.alphacoders.com/591/59195.png">
+			<a href="1 Peliculas/10 Batman Begins/Batman Begins.html">
+				<img src="https://pbs.twimg.com/media/E6B1U96WUAE0FXP?format=jpg&name=large">
+			</a>
+
+			<img id="logopelicula" src="https://pbs.twimg.com/media/E4ewqgDWQAIQHfT?format=jpg&name=900x900">
+			<a href="3 Otros/26 DCN Deadman/DCN Deadman.html">
+				<img src="https://pbs.twimg.com/media/E6CFAAdXsAkwYE4?format=jpg&name=large">
+			</a>
+
+			<img id="logopelicula" src="https://simplydcu.files.wordpress.com/2014/02/constantine-movie-logo.png?w=529">
+			<a href="1 Peliculas/16 Constantine/Constantine.html">
+				<img src="https://pbs.twimg.com/media/E6B2XZQXoAEes7i?format=jpg&name=large">
+			</a>
+
+			<img id="logopelicula" src="https://fanart.tv/api/download.php?type=download&image=84950&section=1">
+			<a href="1 Peliculas/41 Constantie City of Demons/Constantine City of Demons.html">
+				<img src="https://pbs.twimg.com/media/E6B51GLX0AQECht?format=jpg&name=large">
+			</a>
+			
+			<img id="logopelicula" src="https://fanart.tv/fanart/movies/618344/hdmovielogo/justice-league-dark-apokolips-war-5eb47ef7c9d62.png">
+			<a href="1 Peliculas/45 JL Dark Apokolips War/JL Dark Apokolips War.html">
+				<img src="https://miro.medium.com/max/3840/1*3T2rKCPY9kGSMxf3PVnEIw.jpeg">
+			</a>
+			
+			<img id="logopelicula" src="https://pbs.twimg.com/media/Er2kvJFXcAAGEgR?format=jpg&name=900x900">
+			<a href="1 Peliculas/94 DCS Death/DCS Death.html">
+				<img src="https://pbs.twimg.com/media/EryyMQjW4AE3-6w?format=jpg&name=360x360">
+			</a>
+			
+			
+
+			
+			
+			
+
+		</article>
+
+		
+		<hr>
+
+
+	</section>
+
+
+</body>
+</html>
